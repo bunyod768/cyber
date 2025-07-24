@@ -5,17 +5,17 @@
 2-qadam:
 	restart
 3-qadam:
-	wsl--set-default-version 2
+	wsl --set-default-version 2
 4-qadam:
 	install GUI with Win-Kex:
-	wsl--list--verbose
+	wsl --list --verbose
 
 	update and install Win-Kex:
 	sudo apt update
 	sudo apt install kali-win-kex
 	
 	Launch the GUI:
-	kex--win-s
+	kex --win -s
 
 	
 	
